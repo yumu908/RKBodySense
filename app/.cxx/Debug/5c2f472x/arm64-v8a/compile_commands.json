@@ -1,0 +1,47 @@
+[
+{
+  "directory": "C:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/.cxx/Debug/5c2f472x/arm64-v8a",
+  "command": "F:\\sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=F:/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_rockx_EXPORTS -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-rockx.dir\\native_image.cpp.o -c C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\native_image.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\native_image.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/.cxx/Debug/5c2f472x/arm64-v8a",
+  "command": "F:\\sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=F:/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_rockx_EXPORTS -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-rockx.dir\\native_detect.cpp.o -c C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\native_detect.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\native_detect.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/.cxx/Debug/5c2f472x/arm64-v8a",
+  "command": "F:\\sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=F:/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_rockx_EXPORTS -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-rockx.dir\\yuv420_converter.cpp.o -c C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\yuv420_converter.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\yuv420_converter.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/.cxx/Debug/5c2f472x/arm64-v8a",
+  "command": "F:\\sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=F:/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_rockx_EXPORTS -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-rockx.dir\\image_detect_rockx.cpp.o -c C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\image_detect_rockx.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\image_detect_rockx.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/.cxx/Debug/5c2f472x/arm64-v8a",
+  "command": "F:\\sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=F:/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_rockx_EXPORTS -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-rockx.dir\\image_reader.cpp.o -c C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\image_reader.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\image_reader.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/.cxx/Debug/5c2f472x/arm64-v8a",
+  "command": "F:\\sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=F:/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_rockx_EXPORTS -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-rockx.dir\\cJson.cpp.o -c C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\cJson.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\cJson.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/.cxx/Debug/5c2f472x/arm64-v8a",
+  "command": "F:\\sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=F:/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIE -o CMakeFiles\\v4l2_test.dir\\main_test.cpp.o -c C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\main_test.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\main_test.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/.cxx/Debug/5c2f472x/arm64-v8a",
+  "command": "F:\\sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=F:/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIE -o CMakeFiles\\v4l2_test.dir\\image_reader.cpp.o -c C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\image_reader.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\image_reader.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/.cxx/Debug/5c2f472x/arm64-v8a",
+  "command": "F:\\sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=F:/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IC:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIE -o CMakeFiles\\v4l2_test.dir\\image_converter.cpp.o -c C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\image_converter.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\image_converter.cpp"
+}
+]

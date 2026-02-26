@@ -1,0 +1,4 @@
+E:/meta.projects/meta.android.apps/RKBodySense/app/.cxx/RelWithDebInfo/675a6x6x/arm64-v8a/CMakeFiles/native-rockx.dir
+E:/meta.projects/meta.android.apps/RKBodySense/app/.cxx/RelWithDebInfo/675a6x6x/arm64-v8a/CMakeFiles/v4l2_test.dir
+E:/meta.projects/meta.android.apps/RKBodySense/app/.cxx/RelWithDebInfo/675a6x6x/arm64-v8a/CMakeFiles/edit_cache.dir
+E:/meta.projects/meta.android.apps/RKBodySense/app/.cxx/RelWithDebInfo/675a6x6x/arm64-v8a/CMakeFiles/rebuild_cache.dir

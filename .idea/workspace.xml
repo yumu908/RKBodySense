@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="desktop_medium" />
+      </config>
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_body_pose.xml">
+        <config>
+          <theme>@style/Theme.MediaFilter</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="016bfde3-93e5-4861-b4e4-959cd3fbdd5c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/KalmanFilter2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/REAME.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/REAME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/cJson.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/cJson.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/cJson.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/cJson.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/image_common.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/image_common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/image_converter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/image_converter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/image_converter.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/image_converter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/image_detect_rockx.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/image_detect_rockx.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/image_detect_rockx.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/image_detect_rockx.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/image_facedetect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/image_facedetect.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/image_facedetect.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/image_facedetect.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/image_reader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/image_reader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/image_reader.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/image_reader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/main_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/main_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/native_detect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/native_detect.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/native_image.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/native_image.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/yuv420_converter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/yuv420_converter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/yuv420_converter.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/yuv420_converter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/BitmapRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/BitmapRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/BodyPoseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/BodyPoseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/NVInfoLandmarks.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/NVInfoLandmarks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/NVObjectRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/NVObjectRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/NVTaskPerf.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/NVTaskPerf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/NVTaskRockx.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/NVTaskRockx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/NativeDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/NativeDetect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/NativeImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/NativeImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/BitmapUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/BitmapUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/Camera2Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/Camera2Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/CameraReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/CameraReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/FrameFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/FrameFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/FrameReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/FrameReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/ObjectRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/ObjectRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/RkCameraUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/RkCameraUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/VideoReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/utils/VideoReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/arm64-v8a/librga.a" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/arm64-v8a/librga.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/arm64-v8a/librga.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/arm64-v8a/librga.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/armeabi-v7a/librga.a" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/armeabi-v7a/librga.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/armeabi-v7a/librga.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/armeabi-v7a/librga.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/docs/RGA_FAQ.assets/image-alpha-0x0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/docs/RGA_FAQ.assets/image-alpha-abnormal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/docs/RGA_FAQ.assets/image-alpha-normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/docs/RGA_FAQ.assets/image-blend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/docs/RGA_FAQ.assets/image-cache-abnormal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/docs/RGA_FAQ.assets/image-color-abnormal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/docs/RGA_FAQ.assets/image-normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/docs/RGA_FAQ.assets/image-resize-abnormal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/docs/RGA_FAQ.assets/image-rotate-90-abnormal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/docs/RGA_FAQ.assets/image-rotate-90-normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/docs/Rockchip_Developer_Guide_RGA_CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/docs/Rockchip_Developer_Guide_RGA_EN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/docs/Rockchip_FAQ_RGA_CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/docs/Rockchip_FAQ_RGA_EN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/GrallocOps.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/GrallocOps.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/RgaApi.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/RgaApi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/RgaMutex.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/RgaMutex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/RgaSingleton.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/RgaSingleton.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/RgaUtils.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/RgaUtils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/RockchipRga.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/RockchipRga.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/drmrga.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/drmrga.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_buffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_buffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_common.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_expand.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_expand.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_mpi.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_mpi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_single.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_single.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_task.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_task.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_type.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/im2d_version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/include/rga.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/include/rga.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/librga/samples.zip" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/librga/samples.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/RockXConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/RockXConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/arm64-v8a/librga.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/arm64-v8a/librknnrt.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/arm64-v8a/librknnrt.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/arm64-v8a/librockx.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/arm64-v8a/librockx.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/arm64-v8a/librockx_modules.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/arm64-v8a/librockx_modules.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx_builder.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx_builder.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx_container.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx_container.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx_function.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx_function.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx_mem.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx_mem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx_module.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx_module.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx_module_type.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx_module_type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx_type.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/rockx_type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/utils/rockx_data_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/utils/rockx_data_utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/utils/rockx_image_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/utils/rockx_image_utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/utils/rockx_tensor_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/include/utils/rockx_tensor_utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/rockx_data/pose_body_v4.data" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/rockx-rk3576/rockx_data/pose_body_v4.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fps_bg.9.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/fps_bg.9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gpu_instructions.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gpu_instructions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/num_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/num_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rk.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/shape_circle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_circle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_body_pose.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_body_pose.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/martin/mediafilter/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/martin/mediafilter/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DockDockBuild.Settings">
+    <option name="codePath" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RKBodySense" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/build.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/local.properties" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2M39y0feMPSVXjrUlrnxMm1ppUS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;android-custom-viewE:/MetaMatrix/03 Projects/app.android/rk.android/Android-Projects/MediaFilter/app/src/main/java/com/martin/mediafilter/GLTextureView.java_SELECTED&quot;: &quot;GLTextureView&quot;,
+    &quot;android-custom-viewE:/MetaMatrix/03 Projects/app.android/rk.android/Android-Projects/NV.FaceScreenLock/app/src/main/java/com/martin/FaceScreenLock/GLTextureView.java_SELECTED&quot;: &quot;GLTextureView&quot;,
+    &quot;android-custom-viewE:/MetaMatrix/03 Projects/app.android/rk.android/Android-Projects/NV.FaceScreenLock/app/src/main/java/com/martin/facescreenlock/GLTextureView.java_SELECTED&quot;: &quot;GLTextureView&quot;,
+    &quot;android-custom-viewE:/MetaMatrix/03 Projects/app.android/rk.android/Android-Projects/NV.FaceScreenLock/app/src/main/java/com/martin/facescreenlock/HorizontalListView.java_SELECTED&quot;: &quot;HorizontalListView&quot;,
+    &quot;android-custom-viewE:/MetaMatrix/03 Projects/app.android/rk.android/Android-Projects/NV.FaceScreenLock/app/src/main/java/com/martin/mediafilter/GLTextureView.java_SELECTED&quot;: &quot;GLTextureView&quot;,
+    &quot;android-custom-viewE:/MetaMatrix/scrum.projects/rk.android/Android-Projects/MediaFilter/app/src/main/java/com/martin/mediafilter/GLTextureView.java_SELECTED&quot;: &quot;GLTextureView&quot;,
+    &quot;cf.advertisement.text.has.clang-format&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;8ef64c4d&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;E:/MetaMatrix/scrum.projects/rk.android/Android-Projects/MediaFilter/app/src/main/res/drawable&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.rockchips.rockiva" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\meta.projects\meta.android.apps\RKBodySense\app\src\main\libs\rockx-rk3576\arm64-v8a" />
+      <recent name="E:\meta.projects\meta.android.apps\NV.Rockiva\app\src\main\cpp" />
+      <recent name="E:\meta.projects\meta.android.apps\NV.Rockiva\app\src\main\libs\rockx-rk3576-Android\include\utils" />
+      <recent name="E:\meta.projects\meta.android.apps\NV.Rockiva\app\src\main\java\com\rockchips\rockiva" />
+      <recent name="E:\meta.projects\meta.android.apps\NV.Rockiva\app\src\main\res\drawable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MetaMatrix\03 Projects\app.android\rk.android\Android-Projects\NV.FaceScreenLock\app\src\main" />
+      <recent name="E:\MetaMatrix\03 Projects\app.android\rk.android\Android-Projects\NV.FaceScreenLock\app\src\main\cpp" />
+      <recent name="E:\MetaMatrix\03 Projects\app.android\rk.android\Android-Projects\NV.FaceScreenLock\app\src" />
+      <recent name="E:\MetaMatrix\03 Projects\app.android\rk.android\Android-Projects\NV.FaceScreenLock\app\libs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="RKBodySense.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="016bfde3-93e5-4861-b4e4-959cd3fbdd5c" name="Changes" comment="" />
+      <created>1676985650309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676985650309</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/martin/facescreenlock/FilterManager.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/rockchips/bodysense/BodyPoseActivity.java</url>
+          <line>251</line>
+          <properties class="com.rockchips.bodysense.BodyPoseActivity" method="updateMainUI">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.rockchip.iva.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1742572176603" />
+          </value>
+        </entry>
+        <entry key="com.rockchips.bodysense">
+          <value>
+            <CheckInfo lastCheckTimestamp="1760407072835" />
+          </value>
+        </entry>
+        <entry key="com.rockchips.bodysense.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1760407072835" />
+          </value>
+        </entry>
+        <entry key="com.rockchips.rockiva">
+          <value>
+            <CheckInfo lastCheckTimestamp="1756262095198" />
+          </value>
+        </entry>
+        <entry key="com.rockchips.rockiva.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1756262095198" />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

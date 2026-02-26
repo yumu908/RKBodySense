@@ -1,0 +1,39 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "F:\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\.cxx\\Debug\\5c2f472x\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "F:\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\.cxx\\Debug\\5c2f472x\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "v4l2_test::@6890427a1f51a3e7e1df": {
+      "artifactName": "v4l2_test",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\build\\intermediates\\cxx\\Debug\\5c2f472x\\obj\\arm64-v8a\\v4l2_test",
+      "runtimeFiles": [
+        "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\libs\\librga\\arm64-v8a\\librga.so"
+      ]
+    },
+    "native-rockx::@6890427a1f51a3e7e1df": {
+      "artifactName": "native-rockx",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\build\\intermediates\\cxx\\Debug\\5c2f472x\\obj\\arm64-v8a\\libnative-rockx.so",
+      "runtimeFiles": [
+        "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\libs\\rockx-rk3576\\arm64-v8a\\librknnrt.so",
+        "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\libs\\rockx-rk3576\\arm64-v8a\\librockx.so",
+        "C:\\Users\\Administrator\\Desktop\\RKBodySense202511\\RKBodySense\\app\\src\\main\\libs\\rockx-rk3576\\arm64-v8a\\librockx_modules.so"
+      ]
+    }
+  }
+}

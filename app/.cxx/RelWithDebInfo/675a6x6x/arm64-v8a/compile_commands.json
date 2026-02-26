@@ -1,0 +1,47 @@
+[
+{
+  "directory": "E:/meta.projects/meta.android.apps/RKBodySense/app/.cxx/RelWithDebInfo/675a6x6x/arm64-v8a",
+  "command": "E:\\meta.projects\\meta.android\\Android-SDK\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=E:/meta.projects/meta.android/Android-SDK/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_rockx_EXPORTS -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -o CMakeFiles\\native-rockx.dir\\native_image.cpp.o -c E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\native_image.cpp",
+  "file": "E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\native_image.cpp"
+},
+{
+  "directory": "E:/meta.projects/meta.android.apps/RKBodySense/app/.cxx/RelWithDebInfo/675a6x6x/arm64-v8a",
+  "command": "E:\\meta.projects\\meta.android\\Android-SDK\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=E:/meta.projects/meta.android/Android-SDK/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_rockx_EXPORTS -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -o CMakeFiles\\native-rockx.dir\\native_detect.cpp.o -c E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\native_detect.cpp",
+  "file": "E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\native_detect.cpp"
+},
+{
+  "directory": "E:/meta.projects/meta.android.apps/RKBodySense/app/.cxx/RelWithDebInfo/675a6x6x/arm64-v8a",
+  "command": "E:\\meta.projects\\meta.android\\Android-SDK\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=E:/meta.projects/meta.android/Android-SDK/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_rockx_EXPORTS -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -o CMakeFiles\\native-rockx.dir\\yuv420_converter.cpp.o -c E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\yuv420_converter.cpp",
+  "file": "E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\yuv420_converter.cpp"
+},
+{
+  "directory": "E:/meta.projects/meta.android.apps/RKBodySense/app/.cxx/RelWithDebInfo/675a6x6x/arm64-v8a",
+  "command": "E:\\meta.projects\\meta.android\\Android-SDK\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=E:/meta.projects/meta.android/Android-SDK/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_rockx_EXPORTS -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -o CMakeFiles\\native-rockx.dir\\image_detect_rockx.cpp.o -c E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\image_detect_rockx.cpp",
+  "file": "E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\image_detect_rockx.cpp"
+},
+{
+  "directory": "E:/meta.projects/meta.android.apps/RKBodySense/app/.cxx/RelWithDebInfo/675a6x6x/arm64-v8a",
+  "command": "E:\\meta.projects\\meta.android\\Android-SDK\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=E:/meta.projects/meta.android/Android-SDK/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_rockx_EXPORTS -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -o CMakeFiles\\native-rockx.dir\\image_reader.cpp.o -c E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\image_reader.cpp",
+  "file": "E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\image_reader.cpp"
+},
+{
+  "directory": "E:/meta.projects/meta.android.apps/RKBodySense/app/.cxx/RelWithDebInfo/675a6x6x/arm64-v8a",
+  "command": "E:\\meta.projects\\meta.android\\Android-SDK\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=E:/meta.projects/meta.android/Android-SDK/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_rockx_EXPORTS -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -o CMakeFiles\\native-rockx.dir\\cJson.cpp.o -c E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\cJson.cpp",
+  "file": "E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\cJson.cpp"
+},
+{
+  "directory": "E:/meta.projects/meta.android.apps/RKBodySense/app/.cxx/RelWithDebInfo/675a6x6x/arm64-v8a",
+  "command": "E:\\meta.projects\\meta.android\\Android-SDK\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=E:/meta.projects/meta.android/Android-SDK/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIE -o CMakeFiles\\v4l2_test.dir\\main_test.cpp.o -c E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\main_test.cpp",
+  "file": "E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\main_test.cpp"
+},
+{
+  "directory": "E:/meta.projects/meta.android.apps/RKBodySense/app/.cxx/RelWithDebInfo/675a6x6x/arm64-v8a",
+  "command": "E:\\meta.projects\\meta.android\\Android-SDK\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=E:/meta.projects/meta.android/Android-SDK/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIE -o CMakeFiles\\v4l2_test.dir\\image_reader.cpp.o -c E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\image_reader.cpp",
+  "file": "E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\image_reader.cpp"
+},
+{
+  "directory": "E:/meta.projects/meta.android.apps/RKBodySense/app/.cxx/RelWithDebInfo/675a6x6x/arm64-v8a",
+  "command": "E:\\meta.projects\\meta.android\\Android-SDK\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=E:/meta.projects/meta.android/Android-SDK/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/rockx-rk3576/include -IE:/meta.projects/meta.android.apps/RKBodySense/app/src/main/cpp/../libs/librga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIE -o CMakeFiles\\v4l2_test.dir\\image_converter.cpp.o -c E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\image_converter.cpp",
+  "file": "E:\\meta.projects\\meta.android.apps\\RKBodySense\\app\\src\\main\\cpp\\image_converter.cpp"
+}
+]

@@ -1,0 +1,13 @@
+# ninja log v5
+0	1631	7792605781056598	CMakeFiles/native-rockx.dir/native_detect.cpp.o	7c9a964f0c2000be
+209	1634	7792605783752382	CMakeFiles/native-rockx.dir/yuv420_converter.cpp.o	fbea04647e81ade5
+365	1635	7792605789592259	CMakeFiles/native-rockx.dir/image_detect_rockx.cpp.o	684bfb726e1730e1
+572	1636	7792605786110494	CMakeFiles/native-rockx.dir/native_image.cpp.o	dca5ba3a189765a8
+774	1637	7792605789115130	CMakeFiles/native-rockx.dir/image_reader.cpp.o	adee30f2093a6e19
+1122	1638	7792605792443888	CMakeFiles/v4l2_test.dir/image_reader.cpp.o	c4059884eab6f5fb
+1289	1684	7792605794228077	CMakeFiles/v4l2_test.dir/main_test.cpp.o	87deffa9fd72fcf6
+1468	1804	7792605795472788	CMakeFiles/v4l2_test.dir/image_converter.cpp.o	75159d05d4b8a16c
+943	2175	7792605799102617	CMakeFiles/native-rockx.dir/cJson.cpp.o	66e607dac40393f0
+1804	2526	7792605802701856	E:/meta.projects/meta.android.apps/RKBodySense/app/build/intermediates/cxx/RelWithDebInfo/6h654f3h/obj/arm64-v8a/v4l2_test	e18529ba744af5ef
+2175	2959	7792605806854559	E:/meta.projects/meta.android.apps/RKBodySense/app/build/intermediates/cxx/RelWithDebInfo/6h654f3h/obj/arm64-v8a/libnative-rockx.so	c6a819a1562a2857
+0	169	0	clean	940c9a3a40770d4e

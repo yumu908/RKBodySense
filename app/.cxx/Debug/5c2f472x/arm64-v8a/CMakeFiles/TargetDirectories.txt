@@ -1,0 +1,4 @@
+C:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/.cxx/Debug/5c2f472x/arm64-v8a/CMakeFiles/native-rockx.dir
+C:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/.cxx/Debug/5c2f472x/arm64-v8a/CMakeFiles/v4l2_test.dir
+C:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/.cxx/Debug/5c2f472x/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/Desktop/RKBodySense202511/RKBodySense/app/.cxx/Debug/5c2f472x/arm64-v8a/CMakeFiles/rebuild_cache.dir
